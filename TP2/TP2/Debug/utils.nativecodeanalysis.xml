@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+      <FILENAME>utils.c</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'sscanf'.</DESCRIPTION>
+    <FUNCTION>init_dados</FUNCTION>
+    <DECORATED>init_dados</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+      <FILENAME>utils.c</FILENAME>
+      <LINE>49</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'fscanf'.</DESCRIPTION>
+    <FUNCTION>init_dados</FUNCTION>
+    <DECORATED>init_dados</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+      <FILENAME>utils.c</FILENAME>
+      <LINE>34</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'p':  the writable size is '(unsigned int)(*n)*sizeof(float *)' bytes, but '8' bytes might be written.</DESCRIPTION>
+    <FUNCTION>init_dados</FUNCTION>
+    <DECORATED>init_dados</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>14</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>14</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>14</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>14</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>14</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'p' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;((*n))')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;((*n))')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'p', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+      <FILENAME>utils.c</FILENAME>
+      <LINE>44</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'q':  the writable size is '(unsigned int)(*n)*sizeof(float *)' bytes, but '8' bytes might be written.</DESCRIPTION>
+    <FUNCTION>init_dados</FUNCTION>
+    <DECORATED>init_dados</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>14</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>14</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>14</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>14</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>14</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'p' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;((*n))')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;((*n))')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Exit this loop, ('i&lt;((*n))' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>3</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>alias</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>(alias) 'q' receives the value of 'p'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;((*n))')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>44</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>10</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>11</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;((*n))')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>44</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>12</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'q', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+      <FILENAME>utils.c</FILENAME>
+      <LINE>66</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>28278</DEFECTCODE>
+    <DESCRIPTION>Function time appears with no prototype in scope.  Only limited analysis can be performed. Include the appropriate header or add a prototype. This warning also occurs if parameter or return types are omitted in a function definition.</DESCRIPTION>
+    <FUNCTION>init_rand</FUNCTION>
+    <DECORATED>init_rand</DECORATED>
+    <FUNCLINE>64</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+      <FILENAME>utils.c</FILENAME>
+      <LINE>145</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'indiv':  the writable size is '(unsigned int)d.popsize*sizeof(chrom)' bytes, but '8008' bytes might be written.</DESCRIPTION>
+    <FUNCTION>init_pop</FUNCTION>
+    <DECORATED>init_pop</DECORATED>
+    <FUNCLINE>130</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>133</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>135</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'indiv' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>136</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'indiv==(((void *)0))' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>143</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>143</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;d.popsize')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>144</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>144</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'j&lt;d.numGenes')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>145</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>144</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>144</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Exit this loop, ('j&lt;d.numGenes' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>143</LINE>
+        <COLUMN>27</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>143</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;d.popsize')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>144</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>144</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'j&lt;d.numGenes')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>utils.c</FILENAME>
+        <LINE>145</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'indiv', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

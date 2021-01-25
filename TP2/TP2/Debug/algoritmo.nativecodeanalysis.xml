@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+      <FILENAME>algoritmo.c</FILENAME>
+      <LINE>162</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'viz':  the writable size is '(unsigned int)num_elem_conj*sizeof(int)' bytes, but '8' bytes might be written.</DESCRIPTION>
+    <FUNCTION>gera_vizinho_best</FUNCTION>
+    <DECORATED>gera_vizinho_best</DECORATED>
+    <FUNCLINE>148</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>149</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>149</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>150</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>151</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>151</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>153</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'viz' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>154</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'viz==(((void *)0))' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>159</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>159</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;num_elem_conj')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>161</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>161</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'j&lt;num_elem_conj')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>162</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>161</LINE>
+        <COLUMN>36</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'j' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>161</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'j&lt;num_elem_conj')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>162</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'viz', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+      <FILENAME>algoritmo.c</FILENAME>
+      <LINE>174</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'viz':  the readable size is '(unsigned int)num_elem_conj*sizeof(int)' bytes, but '8' bytes may be read.</DESCRIPTION>
+    <FUNCTION>gera_vizinho_best</FUNCTION>
+    <DECORATED>gera_vizinho_best</DECORATED>
+    <FUNCLINE>148</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>149</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>149</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>150</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>151</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>151</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>153</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'viz' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>154</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'viz==(((void *)0))' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>159</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>159</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;num_elem_conj')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>161</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>161</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>162</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>161</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>161</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>162</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>161</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>161</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>164</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>167</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'viz' is an In/Out argument to 'calcula_fit' (declared at c:\users\morei\desktop\nova pasta\funcao.h:2)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>170</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'i==0')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>171</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>173</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>173</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'j&lt;num_elem_conj')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>174</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>173</LINE>
+        <COLUMN>40</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'j' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>173</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'j&lt;num_elem_conj')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>174</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'viz', (outside its readable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+      <FILENAME>algoritmo.c</FILENAME>
+      <LINE>189</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'maior'.</DESCRIPTION>
+    <FUNCTION>gera_vizinho_best</FUNCTION>
+    <DECORATED>gera_vizinho_best</DECORATED>
+    <FUNCLINE>148</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>149</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>149</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>150</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>151</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'maior' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>151</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>153</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>154</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'viz==(((void *)0))' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>159</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>159</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'i&lt;num_elem_conj' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>188</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>189</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'maior' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+      <FILENAME>algoritmo.c</FILENAME>
+      <LINE>236</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'x':  the writable size is '(unsigned int)d.tsize*sizeof(int)' bytes, but '8' bytes might be written.</DESCRIPTION>
+    <FUNCTION>tournament_tsize</FUNCTION>
+    <DECORATED>tournament_tsize</DECORATED>
+    <FUNCLINE>218</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>220</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>220</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>220</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>220</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>220</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>222</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'x' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>224</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'x==(((void *)0))' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>230</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>230</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;d.popsize')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>231</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>232</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'j' is equal to 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>232</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'j&lt;d.tsize')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>234</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>235</LINE>
+        <COLUMN>35</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'j' is an In/Out argument to 'existe_val_arr' (declared at c:\users\morei\desktop\nova pasta\utils.h:19)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>235</LINE>
+        <COLUMN>35</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'existe_val_arr(xn, x, j)' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>236</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'x', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+      <FILENAME>algoritmo.c</FILENAME>
+      <LINE>240</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'x':  the readable size is '(unsigned int)d.tsize*sizeof(int)' bytes, but '8' bytes may be read.</DESCRIPTION>
+    <FUNCTION>tournament_tsize</FUNCTION>
+    <DECORATED>tournament_tsize</DECORATED>
+    <FUNCLINE>218</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>220</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>220</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>220</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>220</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>220</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>222</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'x' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>224</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'x==(((void *)0))' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>230</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>230</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;d.popsize')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>231</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>232</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>232</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'j&lt;d.tsize')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>234</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>235</LINE>
+        <COLUMN>35</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'x' is an In/Out argument to 'existe_val_arr' (declared at c:\users\morei\desktop\nova pasta\utils.h:19)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>235</LINE>
+        <COLUMN>35</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'existe_val_arr(xn, x, j)' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>236</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>232</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>232</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Exit this loop, ('j&lt;d.tsize' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>239</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'j' is equal to 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>239</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'j&lt;d.tsize')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\morei\desktop\nova pasta\</FILEPATH>
+        <FILENAME>algoritmo.c</FILENAME>
+        <LINE>240</LINE>
+        <COLUMN>34</COLUMN>
+        <KEYEVENT>
+          <ID>10</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'x', (outside its readable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,41 @@
+﻿  main.c
+c:\users\morei\desktop\isec\iia\nova pasta\funcao.h(5): error C2081: 'num': name in formal parameter list illegal
+c:\users\morei\desktop\isec\iia\nova pasta\main.c(37): warning C4013: 'gets' undefined; assuming extern returning int
+c:\users\morei\desktop\isec\iia\nova pasta\main.c(88): warning C4047: 'function': 'int' differs in levels of indirection from 'int [1000][10]'
+c:\users\morei\desktop\isec\iia\nova pasta\main.c(88): warning C4024: 'trepa_colinas': different types for formal and actual parameter 2
+c:\users\morei\desktop\isec\iia\nova pasta\main.c(88): warning C4020: 'trepa_colinas': too many actual parameters
+c:\users\morei\desktop\isec\iia\nova pasta\main.c(123): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\morei\desktop\isec\iia\nova pasta\main.c(158): warning C4047: 'function': 'int' differs in levels of indirection from 'int [1000][10]'
+c:\users\morei\desktop\isec\iia\nova pasta\main.c(158): warning C4024: 'evaluate': different types for formal and actual parameter 3
+c:\users\morei\desktop\isec\iia\nova pasta\main.c(158): error C2198: 'evaluate': too few arguments for call
+c:\users\morei\desktop\isec\iia\nova pasta\main.c(186): warning C4047: 'function': 'int' differs in levels of indirection from 'int [1000][10]'
+c:\users\morei\desktop\isec\iia\nova pasta\main.c(186): warning C4024: 'evaluate': different types for formal and actual parameter 3
+c:\users\morei\desktop\isec\iia\nova pasta\main.c(186): error C2198: 'evaluate': too few arguments for call
+c:\users\morei\desktop\isec\iia\nova pasta\main.c(235): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\morei\desktop\isec\iia\nova pasta\main.c(267): warning C4047: 'function': 'int' differs in levels of indirection from 'int [1000][10]'
+c:\users\morei\desktop\isec\iia\nova pasta\main.c(267): warning C4024: 'evaluate': different types for formal and actual parameter 3
+c:\users\morei\desktop\isec\iia\nova pasta\main.c(267): error C2198: 'evaluate': too few arguments for call
+c:\users\morei\desktop\isec\iia\nova pasta\main.c(294): warning C4047: 'function': 'int' differs in levels of indirection from 'int [1000][10]'
+c:\users\morei\desktop\isec\iia\nova pasta\main.c(294): warning C4024: 'evaluate': different types for formal and actual parameter 3
+c:\users\morei\desktop\isec\iia\nova pasta\main.c(294): error C2198: 'evaluate': too few arguments for call
+  funcao.c
+c:\users\morei\desktop\isec\iia\nova pasta\funcao.h(5): error C2081: 'num': name in formal parameter list illegal
+c:\users\morei\desktop\isec\iia\nova pasta\funcao.c(7): warning C4028: formal parameter 2 different from declaration
+c:\users\morei\desktop\isec\iia\nova pasta\funcao.c(74): error C2081: 'num': name in formal parameter list illegal
+c:\users\morei\desktop\isec\iia\nova pasta\funcao.c(78): warning C4047: 'function': 'int (*)[10]' differs in levels of indirection from 'int'
+c:\users\morei\desktop\isec\iia\nova pasta\funcao.c(78): warning C4024: 'eval_individual': different types for formal and actual parameter 3
+c:\users\morei\desktop\isec\iia\nova pasta\funcao.c(78): error C2039: 'valido': is not a member of 'individual'
+  c:\users\morei\desktop\isec\iia\nova pasta\algoritmo.h(40): note: see declaration of 'individual'
+c:\users\morei\desktop\isec\iia\nova pasta\funcao.c(78): warning C4047: 'function': 'int *' differs in levels of indirection from 'int'
+c:\users\morei\desktop\isec\iia\nova pasta\funcao.c(78): warning C4024: 'eval_individual': different types for formal and actual parameter 4
+c:\users\morei\desktop\isec\iia\nova pasta\funcao.c(78): error C2198: 'eval_individual': too few arguments for call
+  algoritmo.c
+c:\users\morei\desktop\isec\iia\nova pasta\funcao.h(5): error C2081: 'num': name in formal parameter list illegal
+c:\users\morei\desktop\isec\iia\nova pasta\algoritmo.c(20): warning C4029: declared formal parameter list different from definition
+c:\users\morei\desktop\isec\iia\nova pasta\algoritmo.c(28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\morei\desktop\isec\iia\nova pasta\algoritmo.c(45): warning C4047: 'function': 'float **' differs in levels of indirection from 'int'
+c:\users\morei\desktop\isec\iia\nova pasta\algoritmo.c(45): warning C4024: 'gera_vizinho_first': different types for formal and actual parameter 3
+c:\users\morei\desktop\isec\iia\nova pasta\algoritmo.c(25): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\morei\desktop\isec\iia\nova pasta\algoritmo.c(67): warning C4028: formal parameter 3 different from declaration
+c:\users\morei\desktop\isec\iia\nova pasta\algoritmo.c(67): warning C4029: declared formal parameter list different from definition
+  Generating Code...
